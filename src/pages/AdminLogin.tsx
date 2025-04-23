@@ -46,7 +46,7 @@ const AdminLogin = () => {
 			<div className="flex flex-grow justify-center items-center p-4">
 				<div className="w-full max-w-md sm:max-w-lg md:max-w-xl lg:max-w-2xl bg-gray-100 border border-gray-300 rounded-lg shadow-lg p-6 sm:p-8">
 					<div className="flex flex-col items-center">
-						<img src={Logo} alt="Logo" className="mb-6 h-16 sm:h-20" />
+						<Link to="/table/4"><img src={Logo} alt="Logo" className="mb-6 h-16 sm:h-20" /></Link>
 						<h1 className="text-2xl sm:text-3xl uppercase font-bold mb-4 font-serif leading-snug text-center">
 							Admin Login
 						</h1>
